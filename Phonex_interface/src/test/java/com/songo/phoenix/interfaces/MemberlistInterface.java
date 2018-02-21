@@ -1,4 +1,4 @@
-package com.ningmengban.phoenix.interfaces;
+package com.songo.phoenix.interfaces;
 
 import java.io.IOException;
 

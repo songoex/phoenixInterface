@@ -1,4 +1,4 @@
-package com.ningmengban.phoenix.interfaces;
+package com.songo.phoenix.interfaces;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,7 +10,7 @@ import org.apache.http.message.BasicNameValuePair;
 import org.testng.annotations.Test;
 
 import com.alibaba.fastjson.JSONObject;
-import com.ningmengban.phoenix.util.ExcelUtil;
+import com.songo.phoenix.util.ExcelUtil;
 
 public class RegisterInterface {
 	@Test

@@ -1,4 +1,4 @@
-package com.ningmengban.phoenix.util;
+package com.songo.phoenix.util;
 
 public class StringUtils {
 	public static boolean isEmpty(String content) {
