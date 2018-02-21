@@ -13,17 +13,17 @@ import org.testng.annotations.Test;
 public class MemberlistInterface {
 	@Test
 	public void list() throws ClientProtocolException, IOException {
-		// 定义接口有地址
+		// pre the ip
 		String interfaceUrl = "http://119.23.241.154:8080/futureloan/mvc/api/member/list";
 
-		// 决定提交方式
+		// pre the send tyoe
 		HttpGet httpGet = new HttpGet(interfaceUrl);
 
-		// 直接提交接口请求
+		// pre the api
 		CloseableHttpClient httpClient = HttpClients.createDefault();
 		CloseableHttpResponse response = httpClient.execute(httpGet);
 
-		// 获取响应数据
+		// get the repayment data
 		String jasonString = EntityUtils.toString(response.getEntity());
 		System.out.println(jasonString);
 	}

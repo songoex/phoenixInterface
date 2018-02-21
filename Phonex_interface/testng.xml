@@ -3,7 +3,7 @@
 <suite name="XXX">
 	<test name="xxx">
 		<classes>
-			<class name="com.ningmengban.phoenix.interfaces.RegisterInterface">
+			<class name="com.songo.phoenix.interfaces.RegisterInterface">
 			</class>
 		</classes>
 	</test>
