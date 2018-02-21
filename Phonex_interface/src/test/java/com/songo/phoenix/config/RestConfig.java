@@ -48,4 +48,20 @@ public class RestConfig {
 		return "";
 	}
 
+	/**
+	 * apiId get the api request type
+	 * 
+	 * @param apiId:api
+	 *            id
+	 */
+
+	public static String getRestTypeByApiId(String apiId) {
+		for (Rest rest : rList) {
+			if (apiId.equals(rest.getApiId())) {
+				return rest.getType();
+			}
+		}
+		return "";
+	}
+
 }

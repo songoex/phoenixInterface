@@ -84,4 +84,12 @@ public class HttpUtil {
 		return resultString;
 	}
 
+	public static String process(String type, String url, List<NameValuePair> params) {
+		if ("post".equalsIgnoreCase(type)) {
+			return getResultStringByPost(url, params);
+		} else if ("get".equalsIgnoreCase(type)) {
+			return getResultStringByGet(url, params);
+		}
+		return "";
+	}
 }

@@ -22,6 +22,8 @@ public class RegisterInterface {
 		// String url =
 		// "http://119.23.241.154:8080/futureloan/mvc/api/member/register";
 		String Url = RestConfig.getRestUrlByApiId(apiId);
+		// 接口请求方式
+		String type = RestConfig.getRestUrlByApiId(apiId);
 		// send typy
 		// HttpPost post = new HttpPost(url);
 		// pre params
@@ -31,7 +33,8 @@ public class RegisterInterface {
 		for (String key : keys) {
 			params.add(new BasicNameValuePair(key, map.get(key)));
 		}
-		String resultString = HttpUtil.getResultStringByPost(Url, params);
+
+		String resultString = HttpUtil.process(type, Url, params);
 		System.out.println("************" + resultString);
 
 		// params.add(new BasicNameValuePair("mobilephone", "18520796150"));
@@ -62,7 +65,7 @@ public class RegisterInterface {
 	// Set<String> keys = map.keySet();
 	// for (String key : keys) {
 	// System.out.println("key:" + key + ",value:" + map.get(key));
-	// //
+	// //11sp fenzhong
 	// }
 	// }
 }
