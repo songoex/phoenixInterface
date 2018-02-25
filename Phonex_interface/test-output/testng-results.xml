@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="XXX" duration-ms="1327" started-at="2018-02-21T14:34:40Z" finished-at="2018-02-21T14:34:42Z">
+  <suite name="XXX" duration-ms="1633" started-at="2018-02-25T10:36:01Z" finished-at="2018-02-25T10:36:03Z">
     <groups>
     </groups>
-    <test name="xxx" duration-ms="1327" started-at="2018-02-21T14:34:40Z" finished-at="2018-02-21T14:34:42Z">
+    <test name="xxx" duration-ms="1633" started-at="2018-02-25T10:36:01Z" finished-at="2018-02-25T10:36:03Z">
       <class name="com.songo.phoenix.interfaces.RegisterInterface">
-        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.songo.phoenix.interfaces.RegisterInterface@56f4468b]" name="test1" duration-ms="540" started-at="2018-02-21T22:34:41Z" data-provider="datas" finished-at="2018-02-21T22:34:41Z">
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.songo.phoenix.interfaces.RegisterInterface@326de728]" name="test1" duration-ms="634" started-at="2018-02-25T18:36:02Z" data-provider="datas" finished-at="2018-02-25T18:36:02Z">
           <params>
             <param index="0">
               <value>
@@ -28,7 +28,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.songo.phoenix.interfaces.RegisterInterface@56f4468b]" name="test1" duration-ms="46" started-at="2018-02-21T22:34:41Z" data-provider="datas" finished-at="2018-02-21T22:34:41Z">
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.songo.phoenix.interfaces.RegisterInterface@326de728]" name="test1" duration-ms="92" started-at="2018-02-25T18:36:02Z" data-provider="datas" finished-at="2018-02-25T18:36:02Z">
           <params>
             <param index="0">
               <value>
@@ -49,7 +49,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.songo.phoenix.interfaces.RegisterInterface@56f4468b]" name="test1" duration-ms="60" started-at="2018-02-21T22:34:41Z" data-provider="datas" finished-at="2018-02-21T22:34:41Z">
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.songo.phoenix.interfaces.RegisterInterface@326de728]" name="test1" duration-ms="96" started-at="2018-02-25T18:36:02Z" data-provider="datas" finished-at="2018-02-25T18:36:02Z">
           <params>
             <param index="0">
               <value>
@@ -70,7 +70,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.songo.phoenix.interfaces.RegisterInterface@56f4468b]" name="test1" duration-ms="32" started-at="2018-02-21T22:34:41Z" data-provider="datas" finished-at="2018-02-21T22:34:41Z">
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.songo.phoenix.interfaces.RegisterInterface@326de728]" name="test1" duration-ms="70" started-at="2018-02-25T18:36:02Z" data-provider="datas" finished-at="2018-02-25T18:36:02Z">
           <params>
             <param index="0">
               <value>
@@ -91,7 +91,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.songo.phoenix.interfaces.RegisterInterface@56f4468b]" name="test1" duration-ms="31" started-at="2018-02-21T22:34:41Z" data-provider="datas" finished-at="2018-02-21T22:34:41Z">
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.songo.phoenix.interfaces.RegisterInterface@326de728]" name="test1" duration-ms="72" started-at="2018-02-25T18:36:02Z" data-provider="datas" finished-at="2018-02-25T18:36:02Z">
           <params>
             <param index="0">
               <value>
@@ -112,7 +112,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.songo.phoenix.interfaces.RegisterInterface@56f4468b]" name="test1" duration-ms="32" started-at="2018-02-21T22:34:41Z" data-provider="datas" finished-at="2018-02-21T22:34:42Z">
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.songo.phoenix.interfaces.RegisterInterface@326de728]" name="test1" duration-ms="75" started-at="2018-02-25T18:36:02Z" data-provider="datas" finished-at="2018-02-25T18:36:03Z">
           <params>
             <param index="0">
               <value>
